@@ -150,18 +150,18 @@ Media Queries Paet Started
  }
  /* Tablats Devices */
 
- @media only screen and (min-width: 68px) and (max-width: 992px) {
+ @media only screen and (min-width: 689px) and (max-width: 992px) {
     .container{
         width: 100%;
     }
-    .players{
+    .players, .courses{
         grid-template-columns: repeat(2, 1fr);
     }
-    .blogs, .courses{
+    .blogs {
         grid-template-columns: repeat(1, 1fr);
        /* background-color: greenyellow; */
     }
-    .player, .blog, .courses{
+    .player, .blog, .course{
         flex-direction: column;
         align-items: center;
     }
