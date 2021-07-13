@@ -8,19 +8,26 @@ body{
 
 main{
     display: flex;
-    justify-content:center;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
 
 }
 .container{
     background-color: #fff;
     width:870px;
     padding-left:30px;
+    margin-top: 21px;
+    border-radius: 10px;
     
 }
 hr{
     border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
 }
-/* top players style part started  */
+/*-------------------------------
+ top players style part started
+ --------------------------------  */
 .top-players{
     margin-bottom: 30px;
 }
@@ -32,8 +39,6 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
-
-
 }
 .player{
     display: flex;
@@ -46,6 +51,49 @@ hr{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
-
 }
-/* top players style part end  */
+/*------------------------
+ top players style part end
+ --------------------------  */
+
+/*----------------------------------
+Top blog style patr started
+----------------------------------   */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display:flex;
+}
+.blog .thumbnaill img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog .author{
+    color: gray;
+}
+.blog .author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562eff;
+    
+}
+/*-------------------------
+Top blog style patr end
+------------------------   */
+
+/*--------------------------------
+ Latest Courser Part started
+------------------------------.....  */
+
+/* -------------------------------
+Latest Courser Part end
+------------------------------.....  */
