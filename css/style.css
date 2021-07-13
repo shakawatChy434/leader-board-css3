@@ -93,6 +93,27 @@ Top blog style patr end
 /*--------------------------------
  Latest Courser Part started
 ------------------------------.....  */
+.course-banner img{
+    width: 224px;
+    height: 104px;
+
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size:12px;
+
+}
+.fas.fa-star.filled{
+    color:#ffc014;
+}
+.fas.fa-star.empty{
+    color: #858072;
+
+}
 
 /* -------------------------------
 Latest Courser Part end
