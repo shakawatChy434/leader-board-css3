@@ -127,7 +127,45 @@ Top blog style patr end
     color: #858072;
 
 }
-
 /* -------------------------------
 Latest Courser Part end
 ------------------------------.....  */
+
+/* --------------------------
+Media Queries Paet Started
+----------------------------- */
+/* For Mobile  Devices */
+ @media only screen and (max-width:688px){
+     .container{
+         width: 100%;
+     }
+     .players, .blogs, .courses{
+         grid-template-columns: repeat(1, 1fr);
+        /* background-color: greenyellow; */
+     }
+     .player, .blog, .courses{
+         flex-direction: column;
+         align-items: center;
+     }
+ }
+ /* Tablats Devices */
+
+ @media only screen and (min-width: 68px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+       /* background-color: greenyellow; */
+    }
+    .player, .blog, .courses{
+        flex-direction: column;
+        align-items: center;
+    }
+ }
+/* --------------------------
+Media Queries Paet ended
+----------------------------- */
