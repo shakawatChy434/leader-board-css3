@@ -4,7 +4,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #e6e6e6;
     cursor: pointer;
-    
+
 }
 /*----------------------
  header part started. 
@@ -50,11 +50,11 @@ nav{
             font-size: 15px;
             color: #fff;
             margin-right: 50px;
+            padding: 10px;
+            border-radius: 10px;
         }
         .title-details-secound a:hover{
             background-color: grey;
-            border: 10px solid  grey;
-            border-radius: 5px;
         }
 /*----------------------
  header part ended. 
@@ -70,7 +70,7 @@ main{
     background-color: #fff;
     width:870px;
     padding-left:30px;
-    /* margin-top: 21px; */
+    margin-bottom: 21px;
     border-radius: 10px; 
 }
 hr{
@@ -96,6 +96,10 @@ hr{
     display: flex;
     align-items: center;
 }
+.players:hover .player{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 4s ease-in-out;
+}
 .player img{
     width: 50px;
 
@@ -103,12 +107,12 @@ hr{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
 }
 .players .player .player-name:hover{
-    background-color: grey;
-    border: 10px solid  grey;
-    border-radius: 5px;
-}
+    background-color:#d1d1d1;
+} 
 /*------------------------
  top players style part end
  --------------------------  */
@@ -123,6 +127,10 @@ Top blog style patr started
 }
 .blog{
     display:flex;
+}
+.blogs:hover .blog{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 4s ease-in-out;
 }
 .blog .thumbnaill img{
     width: 177px;
@@ -164,6 +172,10 @@ Top blog style patr end
     border-radius: 10px;
     
 }
+.courses:hover .course{
+    transform: scale(1.1) rotate(360deg);
+    transition: transform 4s ease-in-out;
+}
 .course .course-banner img{
     width: 230px;
     height: 104px;
@@ -185,6 +197,10 @@ Top blog style patr end
 .fas.fa-star.empty{
     color: #858072;
 
+}
+.course-duraction{
+    background-color:gray;
+    border-radius: 5px;
 }
 /* -------------------------------
 Latest Courser Part end
